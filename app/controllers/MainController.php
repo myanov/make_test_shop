@@ -11,17 +11,10 @@ class MainController extends AppController
 
     public function indexAction()
     {
-        $this->setMeta("Index", "Index page", "Test meta for Main index page");
-        $posts = \R::findAll('test');
-        $name = "Maksim";
-        $arr = [1, 2, 3, 4];
-        $data = Cache::get('test');
-        if($data === false) {
-            Cache::set('test', $arr);
-            $data = Cache::get('test');
-        }
-        $age = 21;
-        $properties = ["height" => 180, "weight" => 68];
-        $this->set(compact('name', 'age', 'properties', 'posts', 'data'));
+        $this->setMeta("Главная страница", "Main page of luxury watches",
+            "Test  meta for Main index page");
+        $brands = \R::find('brand', "LIMIT 3");
+        $hits = \R::find('product', "hit='1' AND status='1' LIMIT 8");
+        $this->set(compact('brands', 'hits'));
     }
 }
