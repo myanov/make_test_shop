@@ -1,0 +1,55 @@
+a:2:{s:4:"data";s:1281:"<ul class='' ><li>
+    <a href="category/men">Men</a>
+            <ul>
+            <ul class='' ><li>
+    <a href="category/elektronnye">Электронные</a>
+            <ul>
+            <ul class='' ><li>
+    <a href="category/casio">Casio</a>
+    </li>
+<li>
+    <a href="category/citizen">Citizen</a>
+    </li>
+</ul>        </ul>
+    </li>
+<li>
+    <a href="category/mehanicheskie">Механические</a>
+            <ul>
+            <ul class='' ><li>
+    <a href="category/royal-london">Royal London</a>
+    </li>
+<li>
+    <a href="category/seiko">Seiko</a>
+    </li>
+<li>
+    <a href="category/epos">Epos</a>
+    </li>
+</ul>        </ul>
+    </li>
+</ul>        </ul>
+    </li>
+<li>
+    <a href="category/women">Women</a>
+            <ul>
+            <ul class='' ><li>
+    <a href="category/elektronnye-11">Электронные</a>
+            <ul>
+            <ul class='' ><li>
+    <a href="category/adriatica">Adriatica</a>
+    </li>
+</ul>        </ul>
+    </li>
+<li>
+    <a href="category/mehanicheskie-12">Механические</a>
+            <ul>
+            <ul class='' ><li>
+    <a href="category/anne-klein">Anne Klein</a>
+    </li>
+</ul>        </ul>
+    </li>
+</ul>        </ul>
+    </li>
+<li>
+    <a href="category/kids">Kids</a>
+    </li>
+</ul>";s:8:"end_time";i:1589639908;}
