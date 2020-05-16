@@ -7,3 +7,14 @@ function dump($name, bool $die = false) {
         die();
     }
 }
+
+function redirect($path = false) {
+    if($path) {
+        $location = $path;
+    }
+    else {
+        $location = $_SERVER["HTTP_REFERER"] ? $_SERVER["HTTP_REFERER"] : PATH;
+    }
+    header("Location: " . $location);
+    die();
+}

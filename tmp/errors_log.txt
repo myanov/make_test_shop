@@ -222,3 +222,5 @@
 ==============
 [11-05-2020 09:59:43] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
 ==============
+[16-05-2020 06:54:57] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
