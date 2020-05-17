@@ -1,6 +1,7 @@
 <?php
 use ishop\Router;
 
+Router::add("product/(?P<alias>[a-z-0-9-]+)$", ["controller" => "Product", "action" => "view"]);
 
 #
 # Default routes

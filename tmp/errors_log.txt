@@ -224,3 +224,37 @@
 ==============
 [16-05-2020 06:54:57] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
 ==============
+[17-05-2020 04:47:29] Сообщение: Контроллер app\controllers\ProductController не найден Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 45
+==============
+[17-05-2020 04:48:05] Сообщение: Call to undefined method app\controllers\ProductController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 38
+==============
+[17-05-2020 04:49:12] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Product/view.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:50:03] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 49
+==============
+[17-05-2020 04:59:01] Сообщение: Продукта casio-ga-1000-1aer2 не найдено Файл: /Applications/MAMP/htdocs/make_store/app/controllers/ProductController.php Строка: 16
+==============
+[17-05-2020 06:19:22] Сообщение: syntax error, unexpected '$categories' (T_VARIABLE) Файл: /Applications/MAMP/htdocs/make_store/app/views/Product/view.php Строка: 20
+==============
+[17-05-2020 06:24:33] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 48
+==============
+[17-05-2020 06:28:06] Сообщение: Контроллер app\controllers\CategoryController не найден Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 44
+==============

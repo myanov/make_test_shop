@@ -3065,3 +3065,15 @@ ul.tag-men {
 }
 }
 /*--media-quaries-end-here--*/
+
+/*-- My new css styles --*/
+.quantity {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.quantity #productAdd {
+	margin-top: 0;
+	margin-left: 15px;
+}

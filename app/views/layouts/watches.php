@@ -7,6 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
+    <base href="/make_store/">
     <?= $this->getMeta() ?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
     <!--Custom-Theme-files-->
@@ -61,7 +62,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--top-header-->
 <!--start-logo-->
 <div class="logo">
-    <a href="index.html"><h1>Luxury Watches</h1></a>
+    <a href="<?= PATH ?>"><h1>Luxury Watches</h1></a>
 </div>
 <!--start-logo-->
 <!--bottom-header-->
@@ -304,11 +305,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         window.scrollTo(0, 1);
     } </script>
 <!--start-menu-->
+<script src="js/jquery.easydropdown.js"></script>
+<script type="text/javascript">
+    $(function() {
+
+        var menu_ul = $('.menu_drop > li > ul'),
+            menu_a  = $('.menu_drop > li > a');
+
+        menu_ul.hide();
+
+        menu_a.click(function(e) {
+            e.preventDefault();
+            if(!$(this).hasClass('active')) {
+                menu_a.removeClass('active');
+                menu_ul.filter(':visible').slideUp('normal');
+                $(this).addClass('active').next().stop(true,true).slideDown('normal');
+            } else {
+                $(this).removeClass('active');
+                $(this).next().stop(true,true).slideUp('normal');
+            }
+        });
+
+    });
+</script>
 <script src="js/simpleCart.min.js"></script>
-<script type="text/javascript" src="js/memenu.js"></script>
-<script>$(document).ready(function () {
-        $(".memenu").memenu();
-    });</script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 <script src="megamenu/js/megamenu.js"></script>
