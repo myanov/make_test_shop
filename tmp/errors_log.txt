@@ -258,3 +258,9 @@
 ==============
 [17-05-2020 06:28:06] Сообщение: Контроллер app\controllers\CategoryController не найден Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 44
 ==============
+[17-05-2020 10:11:34] Сообщение: Контроллер app\controllers\CartController не найден Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 44
+==============
+[21-05-2020 23:47:21] Сообщение: Страница не найдена Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 48
+==============
+[22-05-2020 00:00:13] Сообщение: Too few arguments to function ishop\Registry::getProperty(), 0 passed in /Applications/MAMP/htdocs/make_store/app/models/Breadcrumbs.php on line 15 and exactly 1 expected Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Registry.php Строка: 17
+==============

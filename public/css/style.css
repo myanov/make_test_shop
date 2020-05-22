@@ -3072,8 +3072,18 @@ ul.tag-men {
 	align-items: center;
 	margin-top: 20px;
 }
-
 .quantity #productAdd {
 	margin-top: 0;
 	margin-left: 15px;
+}
+.detail-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.detail-img img {
+	max-width: 100%;
+}
+.recently-title {
+	margin-bottom: 25px;
 }
