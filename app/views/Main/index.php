@@ -80,7 +80,7 @@ if (!empty($hits)):
                                     <h3><?= $product->title ?></h3>
                                     <p>Explore Now</p>
                                     <h4>
-                                        <a class="add-to-cart-link" href="cart/add?id=<?= $product->id ?>"><i></i></a>
+                                        <a class="add-to-cart-link" data-id="<?= $product->id ?>" href="cart/add?id=<?= $product->id ?>"><i></i></a>
                                         <span class=" item_price"><?= $curr['symbol_left'] . $product->price * $curr['value'] . $curr['symbol_right'] ?></span>
                                         <? if (!empty($product->old_price)): ?>
                                             <span class=" item_price"><small><del><?= $curr['symbol_left'] . $product->old_price * $curr['value'] . $curr['symbol_right'] ?></del></small></span>

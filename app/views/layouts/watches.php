@@ -229,6 +229,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!--bottom-header-->
+<? $curr = \ishop\App::$app->getProperty('currency') ?>
+<script>
+    var path = '<?= PATH ?>',
+        value = <?= $curr['value'] ?>,
+        symbolLeft = '<?= $curr['symbol_left'] ?>',
+        symbolRight = '<?= $curr['symbol_right'] ?>';
+</script>
 <div class="content">
     <?= $content; ?>
 </div>

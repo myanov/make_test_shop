@@ -38,6 +38,8 @@ class ProductController extends AppController
         $gallery = \R::findAll("gallery", "product_id = ?", [$product->id]);
 
         // Modifications
-        $this->set(compact('product', 'related', 'gallery', 'recentlyProduct', 'breadcrumbs'));
+        $mods = \R::findAll("modification", "product_id = ?", [$product->id]);
+
+        $this->set(compact('product', 'related', 'gallery', 'recentlyProduct', 'breadcrumbs', 'mods'));
     }
 }

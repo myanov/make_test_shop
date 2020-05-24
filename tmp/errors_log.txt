@@ -264,3 +264,41 @@
 ==============
 [22-05-2020 00:00:13] Сообщение: Too few arguments to function ishop\Registry::getProperty(), 0 passed in /Applications/MAMP/htdocs/make_store/app/models/Breadcrumbs.php on line 15 and exactly 1 expected Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Registry.php Строка: 17
 ==============
+[24-05-2020 05:43:02] Сообщение: Call to undefined method app\controllers\CartController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 37
+==============
+[24-05-2020 05:43:27] Сообщение: Call to undefined method app\controllers\CartController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 37
+==============
+[24-05-2020 05:43:41] Сообщение: Call to undefined method app\controllers\CartController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 37
+==============
+[24-05-2020 05:44:01] Сообщение: Call to undefined method app\controllers\CartController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 37
+==============
+[24-05-2020 05:45:03] Сообщение: Call to undefined method app\controllers\CartController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 37
+==============
+[24-05-2020 05:45:42] Сообщение: Call to undefined method app\controllers\CartController::getView() Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/Router.php Строка: 37
+==============
+[24-05-2020 05:46:00] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 05:46:06] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:21:47] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:23:53] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:24:44] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:25:29] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:25:48] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:25:49] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:25:50] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:25:50] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:27:00] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:27:03] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============
+[24-05-2020 06:27:06] Сообщение: Не найден вид /Applications/MAMP/htdocs/make_store/app/views/Cart/add.php Файл: /Applications/MAMP/htdocs/make_store/vendor/ishop/core/View.php Строка: 46
+==============

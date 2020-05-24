@@ -70,7 +70,7 @@
                             </div>
 
                             <h5 class="item_price">
-                                <?= $curr['symbol_left'].$product->price*$curr['value'].$curr["symbol_right"] ?>
+                                <span id="base-price" data-price="<?= $product->price*$curr['value'] ?>"><?= $curr['symbol_left'].$product->price*$curr['value'].$curr["symbol_right"] ?></span>
                                 <? if($product->old_price): ?>
                                     <small><del><?= $curr['symbol_left'].$product->old_price*$curr['value'].$curr["symbol_right"] ?></del></small>
                                 <? endif; ?>
@@ -79,19 +79,13 @@
                             <div class="available">
                                 <ul>
                                     <li>Color
-                                        <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+                                        <select id="color-mod">
+                                            <option>Выберите цвет</option>
+                                            <? foreach($mods as $mod): ?>
+                                                <option data-title="<?= $mod->title ?>" data-price="<?= $mod->price*$curr['value'] ?>" value="<?= $mod->id ?>"><?= $mod->title; ?></option>
+                                            <? endforeach; ?>
+                                        </select>
+                                    </li>
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
